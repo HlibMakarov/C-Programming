@@ -7,12 +7,21 @@ namespace ProjectG
     {
         public static void Main(string[] args)
         {
-            int i = 100;
+            int [] array = new int [5];
 
-            do {
-                Console.WriteLine ("Element i is :" + i);
-            }
-            while(i < 10);
+            array [0] = 58;
+            array [4] = 78;
+            Console.WriteLine (array[0]);
+
+
+
+
+            // int i = 100;
+
+            // do {
+            //     Console.WriteLine ("Element i is :" + i);
+            // }
+            // while(i < 10);
             // int i = 0;
 
             // while (i < 10)
