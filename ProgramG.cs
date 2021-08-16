@@ -1,5 +1,6 @@
 ﻿
 
+
 using System;
 
 namespace ProjectG
@@ -7,9 +8,13 @@ namespace ProjectG
     class NewTestProgramm
     {
         public static void Main(string[] args){
-        for (int i = 100; i > 10 ; i -= 10){
-            Console.WriteLine("Element i is:" + i);
+        int i = 0;
+
+            while (i < 10);
+            
+            {Console.WriteLine("Element i is :" + i);
+                i++;}
+
         }
-     }
     }
 }
