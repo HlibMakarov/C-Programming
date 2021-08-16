@@ -7,14 +7,25 @@ namespace ProjectG
     {
         public static void Main(string[] args)
         {
-            double a;
-            a = Convert.ToDouble (Console.ReadLine ());
+           int a = 76, b = 0;
 
-            if (a > 10f) {
-                Console.Write ("A is bigger than 10");
-            } else if (a < 10F){
-                Console.Write ("A  more less than 5");
-            }
+           switch (a) {
+               case 1:
+                    b = 45;
+                    break;
+                case 76:
+                    b = 2;
+                    Console.Write("Hi!");
+                    break;
+                case 56:
+                    b = 65;
+                    break;
+            default:
+            b = 1;
+            Console.WriteLine("Else!");
+            break;
+           }
+           Console.WriteLine(b);
         }
     }
 }
