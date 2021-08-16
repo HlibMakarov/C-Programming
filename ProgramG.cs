@@ -8,11 +8,12 @@ namespace ProjectG
         public static void Main(string[] args)
         {
             int [] array = new int [5];
-
-            array [0] = 58;
-            array [4] = 78;
-            Console.WriteLine (array[0]);
-
+            string[] names = new string [3]{
+                "Georg", "Tom", "Gleb"
+            };
+            for (int i = 0; i < names.Length; i++){
+            Console.WriteLine (names [i]+ ", ");
+            }
 
 
 
