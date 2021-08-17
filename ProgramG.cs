@@ -1,6 +1,4 @@
 ﻿
-
-// using Internal;
 using System;
 
 
@@ -10,11 +8,24 @@ namespace ProjectG
     {
         public static void Main(string[] args)
         {
-            float[] nums = {1.23f, 5.32f, 7.56f};
+           // Создание своей функции (вторая часть внизу)
+          Print("Hi!");
+          int num;
+          num = Summ (4,10);
 
-            foreach(float el in nums) {
-                Console.WriteLine("Element is :" + el);
-            }
+          Print (num);
+          
+          
+          
+          
+          
+          // Method ForEACH перебор элементов в массиве:
+
+            // float[] nums = {1.23f, 5.32f, 7.56f};
+
+            // foreach(float el in nums) {
+            //     Console.WriteLine("Element is :" + el);
+            // }
 
 
 
@@ -61,6 +72,21 @@ namespace ProjectG
             // {Console.WriteLine ("Element i is :" + i);
             // i++;}
 
+     }
+        // Создание своей функции 
+    public static void Print (string str){
+        Console.WriteLine (str);
+        }
+
+    public static void Print (int num){
+        Console.WriteLine (num);
+        }
+
+    public static int Summ (int a, int b){
+        int res;
+        res = a+b;
+
+        return res;
         }
     }
 }
