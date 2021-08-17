@@ -1,5 +1,7 @@
 ﻿
+
 using System;
+
 
 namespace ProjectG
 {
@@ -7,13 +9,29 @@ namespace ProjectG
     {
         public static void Main(string[] args)
         {
-            int [] array = new int [5];
-            string[] names = new string [3]{
-                "Georg", "Tom", "Gleb"
-            };
-            for (int i = 0; i < names.Length; i++){
-            Console.WriteLine (names [i]+ ", ");
-            }
+          int[,] arr = new int[3,2] {
+              {2, 8}, {23, 5}, {87, 21}
+          };
+
+          for (int i = 0; i < 3; i++){
+              for(int  j = 0; j < 2;j++){
+                    Console.Write(arr[i, j] + "  ");
+              }
+              Console.WriteLine("  ");
+          }
+            // List<int> nums = new List<int> ();
+
+            // nums.Add (73);
+            // nums.Add (49);
+
+
+            // // int [] array = new int [5];
+            // // string[] names = new string [3]{
+            // //     "Georg", "Tom", "Gleb"
+            // // };
+            // for (int i = 0; i < nums.Count; i++){
+            // Console.WriteLine (nums [i]+ ", ");
+            // }
 
 
 
