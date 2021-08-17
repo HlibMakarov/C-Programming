@@ -1,5 +1,6 @@
 ﻿
 
+// using Internal;
 using System;
 
 
@@ -9,16 +10,28 @@ namespace ProjectG
     {
         public static void Main(string[] args)
         {
-          int[,] arr = new int[3,2] {
-              {2, 8}, {23, 5}, {87, 21}
-          };
+            float[] nums = {1.23f, 5.32f, 7.56f};
 
-          for (int i = 0; i < 3; i++){
-              for(int  j = 0; j < 2;j++){
-                    Console.Write(arr[i, j] + "  ");
-              }
-              Console.WriteLine("  ");
-          }
+            foreach(float el in nums) {
+                Console.WriteLine("Element is :" + el);
+            }
+
+
+
+
+
+
+        //   int[,] arr = new int[3,2] {
+        //       {2, 8}, {23, 5}, {87, 21}
+        //   };
+
+        //   for (int i = 0; i < 3; i++){
+        //       for(int  j = 0; j < 2;j++){
+        //             Console.Write(arr[i, j] + "  ");
+        //       }
+        //       Console.WriteLine("  ");
+
+        //   }
             // List<int> nums = new List<int> ();
 
             // nums.Add (73);
